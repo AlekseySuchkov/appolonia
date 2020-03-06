@@ -1,0 +1,128 @@
+/*Обнуление*/
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style-type: none
+
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+
+body {
+  padding-top:15px;
+  margin:0;
+}
+
+.header {
+display: flex;
+height: 95px;
+}
+
+.header__social-search{
+  width: auto;
+  margin-left: 48px;
+  margin-bottom: 0;
+  margin-right: 21px;
+  margin-top: 2px;
+}
+
+.header__social {
+  margin-bottom: 11px;
+}
+
+.header__social-item {
+  margin-right: 15px;
+}
+
+.header__eye{
+  margin-right: 19px;
+  align-self: center;
+}
+
+.header__appointment{
+  width: 258px;
+  margin-right: 18px;
+  align-self: center;
+  }
+
+.header__appointment-btn button{
+  width: 100%;
+  height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background-color: #00cfcf;
+  border-radius: 20px;
+  border:none;
+  outline: none;
+  box-shadow: 0 0 40px #00cfcf;
+  }
+
+.header__search-form input{
+  width: 212px;
+  height: 21px;
+  border-radius: 7px;
+  box-sizing: border-box;
+  background: #dad9d9;
+  border: none;
+  outline: none;
+  background-image: url(/img/header/search.png);
+  background-repeat: no-repeat;
+  background-position: 193px , center ;
+}
+
+.header__contact{
+  display: flex;
+  align-items:center;
+}
+
+.header__contact-phone{
+  margin-right: 8px;
+}
+
+.heaeder__tel{
+  margin-right: 14px;
+  font-family: "Myriad Pro";
+}
+
+.navigation{
+  background: #ebebeb;
+}
+
+.nav{
+  
+  height: 48px;
+  display: flex;
+  align-items:center;
+  
+  
+}
+
+.nav__list{
+  display: flex;
+  justify-content:space-between;
+  
+  
+ 
+  
+}
+
+.nav__item{
+  font-size: 18px;
+  font-weight: medium;
+  text-transform: uppercase;
+  margin-right: 28px;
+  
+}
