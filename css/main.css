@@ -22,6 +22,17 @@ li{
 
 body {
   padding-top:15px;
+.top {
+background: white;
+position: fixed;
+width: 100%;
+padding-top: 15px;
+left: 0;
+top: 0;
+}
+
+body {
+  background:white;
   margin:0;
 }
 
@@ -101,6 +112,14 @@ height: 95px;
   background: #ebebeb;
 }
 
+  width: 100%;
+  background: #ebebeb;
+  position: fixed;
+  top: 110px;
+  
+}
+
+
 .nav{
   
   height: 48px;
@@ -126,3 +145,17 @@ height: 95px;
   margin-right: 28px;
   
 }
+
+.empty__block{height: 158px;
+
+}
+
+
+
+@media (max-width: 1150px) {
+  .header__contact {
+    display: none;
+  }
+}
+  
+
