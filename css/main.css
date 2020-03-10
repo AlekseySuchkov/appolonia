@@ -21,14 +21,16 @@ li{
 }
 
 body {
-  padding-top:15px;
+ padding-top:15px;
+}
+
 .top {
-background: white;
-position: fixed;
-width: 100%;
-padding-top: 15px;
-left: 0;
-top: 0;
+  background: white;
+  position: fixed;
+  width: 100%;
+  padding-top: 15px;
+  left: 0;
+  top: 0;
 }
 
 body {
@@ -110,14 +112,11 @@ height: 95px;
 
 .navigation{
   background: #ebebeb;
-}
-
   width: 100%;
-  background: #ebebeb;
   position: fixed;
   top: 110px;
-  
 }
+
 
 
 .nav{
@@ -146,7 +145,8 @@ height: 95px;
   
 }
 
-.empty__block{height: 158px;
+.empty__block{
+  height: 158px;
 
 }
 
